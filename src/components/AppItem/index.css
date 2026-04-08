@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.app-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.app-image {
+  width: 120px;
+}
