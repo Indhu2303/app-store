@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# 🚀 AppVault – App Store Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🌐 Live Demo  
+🔗 https://indhuappvault.netlify.app/
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Overview  
+AppVault is a responsive App Store web application built using React. It allows users to browse apps by category and search for apps in real-time with a clean and interactive UI.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features  
+- 🔍 Search functionality to filter apps instantly  
+- 📂 Category-based navigation (Social, Games, News, Food)  
+- ⚡ Dynamic rendering using React state  
+- 🎯 Responsive and user-friendly interface  
+- 🔄 Real-time filtering with search and tabs  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack  
+- Frontend: React.js  
+- Languages: JavaScript, HTML, CSS  
+- Styling: CSS Flexbox  
+- Version Control: Git & GitHub  
+- Deployment: Netlify  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📁 Folder Structure  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+src/
+ ├── components/
+ │   ├── AppStore/
+ │   ├── TabItem/
+ │   └── AppItem/
+ ├── App.js
+ └── index.js
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Installation & Setup  
 
-### `npm run eject`
+1. Clone the repository  
+```
+git clone https://github.com/Indhu2303/app-store.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to project folder  
+```
+cd app-store
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies  
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Run the app  
+```
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📸 Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Home Page
+<img width="534" height="690" alt="Screenshot 2026-04-08 133423" src="https://github.com/user-attachments/assets/49727461-fb9b-4ea6-87e5-efa869c2a997" />
+<img width="529" height="685" alt="Screenshot 2026-04-08 133432" src="https://github.com/user-attachments/assets/8a896562-151f-4645-aed7-eaeed62bde18" />
+<img width="531" height="689" alt="Screenshot 2026-04-08 133444" src="https://github.com/user-attachments/assets/5fd819f8-3c3d-4785-8d22-465d055c3e59" />
+<img width="530" height="689" alt="Screenshot 2026-04-08 133456" src="https://github.com/user-attachments/assets/e688f04f-5374-4be9-ae50-5dd754796f1e" />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Search Feature
+<img width="531" height="689" alt="Screenshot 2026-04-08 133517" src="https://github.com/user-attachments/assets/194b31b7-dc3e-4d36-8d2c-9a96609fdbdd" />
+<img width="531" height="689" alt="Screenshot 2026-04-08 133532" src="https://github.com/user-attachments/assets/9e9020f7-600f-44a7-92db-47e10db127ad" />
+<img width="533" height="685" alt="Screenshot 2026-04-08 133541" src="https://github.com/user-attachments/assets/0f744e11-b4db-4fd6-a0ff-7d09a88a6ee9" />
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 💡 What I Learned  
+- React component structure  
+- State management and event handling  
+- Dynamic filtering techniques  
+- Building reusable components  
+- Debugging and fixing real-time issues  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🚀 Future Improvements  
+- Add authentication  
+- Add animations  
+- Use real-time API data  
+- Implement dark mode  
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🙋‍♀️ Author  
+Indhu Sanapathi  
+GitHub: https://github.com/Indhu2303  
+LinkedIn: https://www.linkedin.com/in/indhusanapathi/
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ⭐ Support  
+If you like this project, give it a ⭐ on GitHub!
